@@ -1,0 +1,15 @@
+/* Minimal styles following aykays theme (white/black/gray with red accent) */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root{
+  --accent: #ef4444;
+  --bg: #ffffff;
+  --muted: #6b7280;
+  --text: #111827;
+}
+body{ font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background:var(--bg); color:var(--text); margin:0; padding:0; }
+input, textarea, button { font-family: inherit; font-size: 15px; }

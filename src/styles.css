@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /* Minimal styles following aykays theme (white/black/gray with red accent) */
 :root{
   --accent: #ef4444;
